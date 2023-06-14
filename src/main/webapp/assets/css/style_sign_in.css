@@ -1,0 +1,74 @@
+.bg-signin{
+background-color: aliceblue;
+    background: url(../images/service-bg.jpg) no-repeat;
+    width: 700px;
+    padding: 50px;
+    max-width: 1000px;
+}
+.bg-signin_vidEdit{
+  background-color: aliceblue;
+      background: url(../images/service-bg.jpg) no-repeat;
+      width: 100%;
+      padding: 50px;
+      max-width: 1500px;
+  }
+.check-warning:checked{
+    background-color: hsl(57, 97%, 45%);
+    color: black;
+
+}
+.p-forgot{
+    color: white;
+    padding-right: 10px;
+}
+.p-forgot:hover{
+    color: hsl(57, 97%, 45%);
+    text-decoration: underline;
+}
+
+
+
+
+/* tabs */
+.tab_s {
+    overflow: hidden;
+    color: white;
+    border: 1px solid #ccc;
+    /* background-color: #f1f1f1; */
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab_s button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab_s button:hover {
+    background-color:  hsl(57, 97%, 45%);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab_s button.active {
+    background-color: hsl(57, 97%, 45%);
+  }
+  
+  /* Style the tab content */
+  .tabcontent_s {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+  .input_s{
+   display: none;
+    background-color: red
+
+  }

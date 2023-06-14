@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="/common/taglib.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<title>N2C1T_Movies</title>
+<%@ include file="/common/head.jsp"%>
+<link href='<c:url value = "/assets/images/footer-bottom-img.png"></c:url>'>
+<link href='<c:url value = "/assets/images/logo.svg"></c:url>'>
+</head>
+<body>
+
+	<%@ include file="/views_staff/Nav_Staff.jsp" %>
+
+
+
+	<jsp:include page="/views_staff/edit_video.jsp"></jsp:include> 
+
+	
+	<%@ include file="/views/footer.jsp"  %>
+
+
+
+
+    
+    <a href="#top" class="go-top_s" data-go-top>
+        <ion-icon name="chevron-up"></ion-icon>
+      </a>
+
+
+
+     <script src = '<c:url value="/assets/js/script.js"></c:url>'></script>
+
+      <!-- 
+    - ionicon link
+  -->
+
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
